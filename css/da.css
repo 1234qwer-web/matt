@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+* {
+    margin:0; padding:0; box-sizing: border-box;
+}
+a {
+    text-decoration: none; color:black;
+}
+img {
+    display: block; max-width: 100%;
+}
+
+#layout {
+    max-width:500px; margin:auto; border:2px solid pink;
+    height:150vh;
+}
+nav {
+    display: flex; justify-content: space-between;
+    padding:10px;
+}
+nav button.material-symbols-outlined {
+    background: none; font-size:2rem;
+    border:none;
+}
+main {
+    padding:10px;
+}
+#hae {
+    background:skyblue;
+    border-radius:10px; height:50vh;
+    display: flex; align-items: center; justify-content: center;
+    letter-spacing: -1px;
+}
+#hae + div {
+    display: flex;
+}
+#hae + div section {
+    flex:1;
+    height:20vh; margin-top:20px;
+    text-align: center;
+}
+#hae+ div div {
+    background: pink; height:100%; margin:10px;  
+}
+#hae+ div div img {height:100%;}
+
+#kakao {
+    position:fixed; bottom:50px; right:10px; border:4px solid red;
+    width:100px;
+}
